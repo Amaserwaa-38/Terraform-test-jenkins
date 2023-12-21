@@ -8,6 +8,6 @@ resource "aws_vpc" "jenkins-vpc" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "Jenkins-vpc"
+    Name = "Jenkins-vpc-1"
   }
 }
