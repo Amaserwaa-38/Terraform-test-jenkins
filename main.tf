@@ -11,3 +11,12 @@ resource "aws_vpc" "jenkins-vpc" {
     Name = "Jenkins-vpc-8"
   }
 }
+
+resource "aws_subnet" "jenkins-subnet" {
+  vpc_id = aws_vpc.jenkins-vpc.id
+  cidr_block = "10.0.0.0/24"
+
+  tags = {
+    Name = "Jenkins-subnet"
+  }
+  }
