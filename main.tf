@@ -17,6 +17,6 @@ resource "aws_subnet" "jenkins-subnet" {
   cidr_block = "10.0.0.0/24"
 
   tags = {
-    Name = "Jenkins-subnet-0"
+    Name = "Jenkins-subnet-1"
   }
   }
