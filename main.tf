@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_vpc" "jenkins-vpc" {
   cidr_block = var.vpc-cidr-block
   instance_tenancy = var.instance_tenancy
-  enable_dns_hostnames = true
+  enable_dns_hostnames = false
 
   tags = {
     Name = "Jenkins-vpc-8"
