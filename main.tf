@@ -8,7 +8,7 @@ resource "aws_vpc" "jenkins-vpc" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "Jenkins-vpc-8"
+    Name = "Jenkins-vpc-900"
   }
 }
 
@@ -17,6 +17,6 @@ resource "aws_subnet" "jenkins-subnet" {
   cidr_block = "10.0.0.0/24"
 
   tags = {
-    Name = "Jenkins-subnet-100"
+    Name = "Jenkins-subnet-8080"
   }
   }
