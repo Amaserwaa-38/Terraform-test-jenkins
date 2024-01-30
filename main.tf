@@ -8,7 +8,7 @@ resource "aws_vpc" "jenkins-vpc" {
   enable_dns_hostnames = true
 
   tags = {
-    Name = "Jenkins-vpc-79"
+    Name = "Croydon-vpc"
   }
 }
 
